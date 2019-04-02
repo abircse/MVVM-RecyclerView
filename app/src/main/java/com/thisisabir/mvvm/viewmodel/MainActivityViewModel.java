@@ -24,7 +24,7 @@ public class MainActivityViewModel extends ViewModel {
         students = repository.getStudentdata();
 
     }
-    public LiveData<List<Student>> getstudentdata(){
+    public MutableLiveData<List<Student>> getstudentdata(){
         return students;
     }
 }
