@@ -31,6 +31,8 @@ public class StudentRepository {
     }
 
     private void setStudentdata() {
-        data.add(new Student("Nayeem Shiddiki Abir", "http://www.coxtunes.com/client_mobile_app_project/education/cbiu/api/adminimage/img1.png"));
+        data.add(new Student("CBIU Programming Club", "http://www.coxtunes.com/client_mobile_app_project/education/cbiu/api/gallery/cbiupc.jpg"));
+        data.add(new Student("CBIU Book Fair", "http://www.coxtunes.com/client_mobile_app_project/education/cbiu/api/gallery/bookfair.jpg"));
+        data.add(new Student("CBIU Compitition", "http://www.coxtunes.com/client_mobile_app_project/education/cbiu/api/gallery/compitition.jpg"));
     }
 }
